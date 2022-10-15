@@ -8,3 +8,12 @@ nuevo = texto.split("#")
 
 for i, c in enumerate(nuevo):
     nuevo[i] = c.capitalize()
+
+    if i==0:
+        nuevo[i] = nuevo[i] + "..."
+
+    else:
+        nuevo[i] = "- " + nuevo[i] + "."
+
+for i in nuevo:
+    print(i)
