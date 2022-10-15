@@ -2,6 +2,7 @@
 import math
 
 
+
 class Punto:
 
     def __init__(self,valor_x = 0, valor_y = 0):
@@ -81,4 +82,31 @@ BA = B.vector(A)
 print(AB)
 print(BA)
 
+# Consultar la distancia entre los puntos A - B y B - A.
+
+Distancia_A_B = A.distancia(B)
+Distancia_B_A = B.distancia(A)
+
+print(Distancia_A_B)
+print(Distancia_B_A)
+
+# Determina cual de los tres puntos (A, B, C) se encuentra mas lejos del origen (D).
+
+valores = []
+Distancia_A_D = valores.append(A.distancia(D))
+Distancia_B_D = valores.append(B.distancia(D))
+Distancia_C_D = valores.append(C.distancia(D))
+print("El punto que se encuentra a mayor distancia de l origen es el B, con una distancia de:" + str(max(valores)))
+
+# Crea un rectangulo
+
+r = Rectangulo(A,B)
+
+r_base = r.base()
+r_altura = r.altura()
+r_area = r.area()
+
+print(r_base)
+print(r_altura)
+print(r_area)
 
