@@ -59,3 +59,26 @@ class Rectangulo():
         area = self.base()*self.altura()
         return area
 
+### Experimentacion ###
+
+# Creacion e impresion de puntos.
+
+A = Punto(2,3)
+B = Punto(5,5)
+C = Punto(-3,-1)
+D = Punto()
+
+print(A.punto())
+print(B.punto())
+print(C.punto())
+print(D.punto())
+
+# Consultar cuadrantes A, C y D.
+
+AB = A.vector(B)
+BA = B.vector(A)
+
+print(AB)
+print(BA)
+
+
