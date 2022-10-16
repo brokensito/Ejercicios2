@@ -1,5 +1,10 @@
 # Ejercicios2
 
+https://github.com/brokensito/Ejercicios2.git
+https://github.com/brokensito/Ejercicios2.git
+https://github.com/brokensito/Ejercicios2.git
+
+
 # Ejercicio 1
 Teoría previa
 En este ejercicio vas a trabajar el concepto de puntos, coordenadas y vectores sobre el plano cartesiano y cómo la programación Orientada a Objetos puede ser una excelente aliada para trabajar con ellos. No está pensado para que hagas ningún tipo de cálculo sino para que practiques la automatización de tareas.
